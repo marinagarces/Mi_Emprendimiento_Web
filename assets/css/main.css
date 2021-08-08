@@ -1,0 +1,104 @@
+/*Main SCSS*/
+/*Archivo de Manifiesto*/
+/* abstracts */
+/*Variables*/
+/*Fuentes*/
+/*Font Sizes*/
+/* Font weight*/
+/*Paleta de Colores*/
+/*Paleta de Blancos*/
+/*Paletas de Negros*/
+/*Paleta de Naranjos*/
+/* Base */
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+body p {
+  font-weight: 400;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+
+@keyframes mover {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 10em;
+  }
+}
+.Container__Navbar__Logo {
+  animation: mover 3s ease-in-out 0s infinite;
+}
+
+/* Layout */
+.Container__Navbar {
+  background-color: #000000;
+  color: #fff;
+}
+.Container__Navbar a {
+  color: #fff;
+}
+
+.container_section svg {
+  width: 550px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.card-body {
+  border: solid 1px;
+}
+.card-body img {
+  width: 100%;
+  height: auto;
+}
+.card-body .container__card-body__img3 {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border: solid 1px;
+}
+
+.card__card-body__tittle {
+  text-align: center;
+}
+
+.card__subtittle {
+  color: #fff;
+  background-color: #2E1503;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: table;
+    width: 100%;
+  }
+
+  .navbar {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .container_section svg {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Components */
+.footer__button {
+  color: #000000;
+  background-color: #FFA500;
+}
+
+/*# sourceMappingURL=main.css.map */

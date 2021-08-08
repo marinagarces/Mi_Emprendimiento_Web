@@ -1,0 +1,22 @@
+body {
+  font-family: $fuente1;
+  p {
+    font-weight: $regular;
+  }
+}
+footer {
+  background-color: $black;
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+
+@keyframes mover {
+0% { margin-left: 0 }
+100% { margin-left: 10em; }
+}
+
+.Container__Navbar__Logo {
+animation:mover 3s ease-in-out 0s infinite;
+}

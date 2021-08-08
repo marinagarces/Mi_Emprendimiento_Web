@@ -1,0 +1,32 @@
+
+.container_section {
+  svg {
+    width: 550px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+  }
+.card-body {
+  border: solid 1px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .container__card-body__img3 {
+    width: 250px;
+    height: auto;
+    display:block;
+    margin: auto;
+    border: solid 1px;
+  }
+}
+.card__card-body__tittle {
+  text-align: center;
+}
+
+.card__subtittle {
+  color: $white;
+  background-color: $charcoal;
+  text-align: center;
+}
